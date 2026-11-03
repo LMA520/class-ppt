@@ -11,16 +11,16 @@ st.set_page_config(
     }
 )
 st.title("欢迎来到视频播放区域")
-st.video("D:\python-learn\learn\VID_135.mp4")
+st.video("VID_135.mp4")
 st.write("下面看一个情况，并做出准确判断")
-st.image("D:\\python-learn\\learn\\IMG_20261101_165439.jpg")
+st.image("IMG_6733.jpeg")
 select = st.radio("你认为该行为有传染艾滋病的风险吗?",["有","无"])
 if st.button("提交答案"):
     if select == "有" :
         st.write("回答错误")
-        st.image("D:\\python-learn\\learn\\IMG_6726.jpeg")
+        st.image("IMG_6726.jpeg")
         st.title("不行啊，老弟")
     else :
         st.write("回答正确")
-        st.image("D:\python-learn\learn\IMG_6728.jpg")
+        st.image("IMG_6728.jpg")
         st.title("恭喜你，答对了~")
